@@ -1,0 +1,24 @@
+#Introduction:
+-JavaScript Object Notation
+-JSON is straight forward to write and read
+-Lightweight
+- .json extension
+-XML cannot be parsed but JSON (JavaScript Object Notation) can be parsed in various programming languages. 
+-Parsing JSON means converting a JSON string into a data structure that can be easily manipulated and used in your code. 
+-JSON is javascripts object 
+-Always use double quotes, single quotes cannot be used
+-Many people think of JSON (JavaScript Object Notation) as a language, but it's really just a data interchange format that works natively with most modern languages, like Python, Java, PHP, and JavaScript. 
+-In JSON, a key-value pair is expressed as "key": value. The keys provide a label for the associated values, which can be of various types, including strings, numbers, booleans, null, arrays, or nested objects.
+
+
+#Uses:
+-It is commonly used for transmitting data in web applications (e.g: sending some data from the server to the client, so it can be displayed on a web page, or vice versa).
+
+#Points:
+-->Right click go to inspect in any page of browser and go to console section
+-Use myJson=`paste the json code from visual studio code`
+-Use JSON.parse(myJson); --> To parse the above codes inside myJson
+-parsed=JSON.parse(myJson)
+-parsed["isAdmin"]  --> Prints False
+-parsed["shopItem"][2]  -->Prints Oil
+-parsed["myObj"]["shopItem2"][2]["a"]  -->prints true
